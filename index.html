@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-column-gap: 16px;
+            padding: 36px 16px;
+        }
+
+        .side-bar {
+            padding: 20px 14px;
+            box-shadow: 0 5px 5px 2px #757575;
+        }
+
+        .main {
+            border: 1px solid blue;
+        }
+
+        .avatar {
+            margin-bottom: 14px;
+        }
+
+        .avatar img {
+            width: 100%;
+        }
+
+        .profile-item {
+            margin-bottom: 14px;
+        }
+
+        .profile-item img{
+            width: 24px;
+            height: auto;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .profile-item div {
+            color: #757575;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .horizontal {
+            height: 1px;
+            background-color: #EEEEEE;
+            margin-bottom: 14px;
+        }
+
+        .information {
+
+        }
+
+        .skill {
+            margin-bottom: 14px;
+        }
+
+        .skill-name {
+            color: #757575;
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+
+        .progress-border {
+            background-color: #F1F1F1;
+            height: 20px;
+            border-radius: 16px;
+        }
+
+        .progress-content {
+            height: 100%;
+            background-color: #009688;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="side-bar">
+            <div class="profile">
+                <div class="avatar">
+                    <img src="./assets/avatar.png" alt="">
+                </div>
+                <div class="profile-item">
+                    <img src="./assets/Book-open.png" alt="">
+                    <div>Designer</div>
+                </div>
+                <div class="profile-item">
+                    <img src="./assets/Book-open.png" alt="">
+                    <div>Designer</div>
+                </div>
+                <div class="profile-item">
+                    <img src="./assets/Book-open.png" alt="">
+                    <div>Designer</div>
+                </div>
+            </div>
+            <div class="horizontal"></div>
+            <div class="information">
+                <div class="profile-item">
+                    <img src="./assets/Chart-pie.svg" alt="">
+                    <div>Skills</div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Adobe Photoshop</div>
+                    <div class="progress-border">
+                        <div class="progress-content" style="width: 10%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Adobe Photoshop</div>
+                    <div class="progress-border">
+                        <div class="progress-content" style="width: 10%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Adobe Photoshop</div>
+                    <div class="progress-border">
+                        <div class="progress-content" style="width: 70%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Adobe Photoshop</div>
+                    <div class="progress-border">
+                        <div class="progress-content" style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Adobe Photoshop</div>
+                    <div class="progress-border">
+                        <div class="progress-content" style="width: 20%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+</body>
+
+</html>
